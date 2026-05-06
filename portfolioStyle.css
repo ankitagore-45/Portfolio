@@ -29,7 +29,7 @@ nav button{
  font-size: 70px;
 }
 .myimg{
-    background-image: url(../public/image/myImgPortpolio.png);
+    background-image: url(image/myImgPortpolio.png);
     height: 400px;
     width: 300px;
     background-size: cover;
