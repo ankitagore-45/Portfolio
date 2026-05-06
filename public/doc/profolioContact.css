@@ -1,0 +1,112 @@
+/* *{  
+    border: 1px solid brown;
+ }  */
+body{
+    color: white;
+        background-color: rgba(33, 36, 33);
+
+}
+nav button{
+    margin-left: 600px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 35px;
+}
+.About{
+    text-align: center;
+    padding: 100px;
+}
+.About1{
+    background-color: white;
+    color: black;
+    padding: 80px;
+}
+.GetStart{
+    color: beige;
+    margin: 150px 00px 150px;
+    text-align: center;
+}
+.contact{
+    background-color: white;
+    color: black;
+    padding: 100px 100px;
+  
+}
+.contact-col2{
+ 
+}
+.thankyouImg{
+    justify-content: center;
+    align-items: center ;
+ padding: 100px;
+ height: 800px;
+ width: 100%;
+ background-color: white;
+}
+.index{
+  background-color: white;
+     display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal center */
+    justify-content: center;
+}
+.form{
+    padding:20px;
+    border:3px solid orange;
+    width:600px;
+    border-radius:20px;
+    text-align:center;
+    margin-bottom:30px;
+    background-color:#f5f5f5;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.formHeading{
+    font-weight: 300px;
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
+.formInput{
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  width: 400px;
+  padding: 10px;
+  border-color: coral;
+}
+#root{
+ 
+
+}
+footer{
+   
+    background-color: black;
+    padding: 40px 80px;
+}
+.f1{
+    width: 100%;
+    background-color: black;
+}
+.siteLink{
+    margin-left: 200px;
+}
+.siteLink a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+}
+.scroll-uobtn{
+ font-size: 50px;
+    color: white;
+    margin-top: -200px;
+    margin-left: 550px;
+}
+@media screen {
+    
+}

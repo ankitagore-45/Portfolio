@@ -1,0 +1,88 @@
+/* *{  
+    border: 1px solid brown;
+ }  */
+body{
+    color: white;
+        background-color: rgba(33, 36, 33);
+
+}
+nav button{
+    margin-left: 600px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 35px;
+}
+.service{
+    padding: 100px;
+}
+.projects{
+    background-color: antiquewhite;
+    color: black;
+    padding: 50px;
+}
+.projects a{
+    text-decoration: none;
+    color: black;
+}
+.logo-table {
+    width: 60%;
+    height: 100px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    color: black;
+}
+
+.logo-table td {
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #f4f0ed;
+    transition: 0.3s;
+}
+
+/* hover effect */
+.logo-table td:hover {
+ background-color: #f3e5d7;
+    
+}
+.letsWorkTogether{
+
+    background-color: orange;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.aboutDiscriptn{
+    background-color: white;
+    color: black;
+    padding: 0px 200px  40px;
+
+}
+footer{
+   
+    background-color: black;
+    padding: 40px 80px;
+}
+.f1{
+    width: 100%;
+    background-color: black;
+}
+.siteLink{
+    margin-left: 200px;
+}
+.siteLink a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+}
+.scroll-uobtn{
+ font-size: 50px;
+    color: white;
+    margin-top: -200px;
+    margin-left: 550px;
+}

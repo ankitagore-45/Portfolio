@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Contact</title>
+     <!-- Bootstrap --><!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+   <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/react@18/umd/react.development.js" defer></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" defer></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
+
+    <!-- Your CSS -->
+     <link rel="stylesheet" href="/public/doc/profolioContact.css">
+    
+    <script type="text/babel">
+        function Index(){
+            return(
+                <div className="index">
+                <FormHeading/>
+                <ContactInfo/>
+                </div>
+            )
+        }
+        function FormHeading(){
+            return(
+                <div className="formHeading">
+                    Interested in working together or have a question? Send me a message.
+                </div>
+            
+            )
+          
+        }
+    function ContactInfo(){
+    return(
+        <div  className="formBG">
+       <form  className="form" action="https://formspree.io/f/xdabzpgr" method="POST">
+      
+            <dl>
+                <dd>
+                    <input type="text" placeholder="Full Name"    name="name" required className="formInput"/>
+                </dd>
+
+                <dd>
+                    <input type="email" placeholder="Email Id"   name="email" required className="formInput" />
+                </dd>
+
+                <dd>
+                    <input type="tel" placeholder="Mobile Number"   name="mobile" className="formInput" required/>
+                </dd>
+
+                <dd>
+                    <textarea placeholder="Message" name="message" className="formInput" required></textarea>
+                </dd>
+            </dl>
+               <input type="hidden" name="_next" value="thankyou.html"/>
+            <button type="submit" className="btn btn-warning">Send Message</button>
+        </form>
+      </div>  
+    )
+}
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(
+            <Index/>
+      )
+    </script>
+</head>
+
+<body>
+    <header class="mt-5"  id="top">
+        <nav class="ms-5 text-secondary">
+               <a href="index.html" class="fw-bold fs-5 text-light" >Ankita</a>
+            <a href="profolioAbout.html">About</a>
+            <a href="profolioService.html">Service</a>
+            <a href="contactPortpholio.html">Contact</a>
+            <button class="btn btn-warning p-3 fw-bold" >    <a href="contactPortpholio.html" style="color: black;"> Let's Work Together </a></button>
+        </nav>
+    </header>
+    <div class="About">
+        <p class="text-warning" style="font-size: 25px;">Contact</p>
+        <p style="font-size: 70px; font-weight: bold;  font-family:'Times New Roman', Times, serif ;"> &nbsp;Get In Touch</p>
+
+    </div>
+    <section class="contact">
+        <div class="row">
+            <div class="col-6">
+                <p style="font-size: 50px; font-weight: bold;">Let’s build something meaningful together.</p>
+            </div>
+            <div class="col-6" contact-col2>
+                <p style=" font-size: 25px;"> I’m actively looking for Full Stack Java Developer opportunities and open to collaborations.</p>
+            </div>
+        </div>
+    </section>
+     <span>
+            <img src="../image/thank you.jpg" class="thankyouImg">
+        </span>
+        <section id="root">
+        
+        </section>
+    <div class="f1">
+        <footer class="footer">
+            <div class="row ">
+                <div class="col-6">
+                    <p style="font-size: 30px; font-weight: bold; font-family:serif ; color: beige;">About Ankita</p>
+                    <p class="text-secondary" style="font-size: 20px; ">
+                        Ankita Gore is a Full Stack Java Developer passionate about building
+                        simple, reliable, and user-friendly web applications using modern
+                        technologies.
+                    </p>
+                    <div class="socilMedia text-secondary">
+                        <a class="bi bi-linkedin" style="text-decoration: none; color: gray;"
+                            href="https://www.linkedin.com/in/ankita-gore-4587ag/"></a>
+                        <a class="bi bi-github" style="text-decoration: none; color: gray;"
+                            href="https://github.com/ankitagore-45/"></a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="siteLink">
+                        <p style="font-size: 30px;font-weight: bold; font-family:serif ; color: beige;">Site Link</p>
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Service</a>
+                        <a href="">Contact</a>
+                    </div>
+                    <div class="text-secondary" style="margin-left: 280px; margin-top: 100px;">
+                        © 2026 Ankita. All rights reserved.<br>
+                        Ankita | Full Stack Java Developer
+                    </div>
+                    
+                   <a href="#top"> <button class="scroll-uobtn btn" > <span class="bi bi-arrow-up-circle"></span></button> </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

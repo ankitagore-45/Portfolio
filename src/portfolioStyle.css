@@ -1,0 +1,233 @@
+/* *{  
+    border: 1px solid brown;
+ }  */
+body{
+    color: white;
+        background-color: rgba(33, 36, 33);
+}
+nav button{
+    margin-left: 600px;
+    
+}
+ nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 35px;
+} 
+ 
+.hello{
+    margin-left: 100px;
+}
+.hr1{
+    color: orange;
+    width: 5%;
+    border-width: 2px;
+    margin-top: 100px;
+}
+.titlePara{
+    margin-left: 90px;
+ font-size: 70px;
+}
+.myimg{
+    background-image: url(../public/image/myImgPortpolio.png);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+
+}
+.bi-arrow-down-circle{
+   font-size: 40px;
+  margin-left: 0px;
+    border: none;
+    color: white;
+    
+    
+}
+.scroll-btn{
+   border: 1px solid white;
+   color: beige;
+   font-size: 20px;
+   font-family: Arial;
+   text-align: center;
+   justify-content: center;
+   margin-left: 50px;
+}
+.scroll-btn a{
+    text-decoration: none;
+    color: white;
+}
+.image-box {
+    
+    position: relative;
+    color: white;
+    padding: 40px;
+    z-index: 1;
+}
+
+/* Background image with opacity */
+.image-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 350px;
+    width: 300px;
+    background-image: url("../public/image/geometric_shape.svg");
+    background-size: cover;
+    background-position: center;
+    opacity: 20%;          /* ONLY image */
+    z-index: -1;
+    text-align: center;
+}
+.aboutContent2{
+    color: white;
+    font-size: 50px;
+    margin-left: 130px;
+    font-weight: bold;
+}
+.about-para{
+   
+    color: beige;
+    font-size: 25px;
+}
+.more-btn{
+    margin-top: 130px;
+    margin-left: 40px;
+ 
+    border: 2px solid white;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.more-btn a{
+    text-decoration: none;
+    color: white;
+}
+.more-btn:hover{
+    background-color: beige;
+    border: 2px solid black;
+}
+.more-btn:hover a{
+    color: black;
+}
+.socilMedia{
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.all-technology{
+    padding-top: 50px;
+    background-color: white;
+    color: black;
+}
+
+.logo-table {
+    width: 60%;
+    height: 400px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    color: black;
+    
+}
+
+.logo-table td {
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #f4f0ed;
+    transition: 0.3s;
+}
+.logo-table i{
+    margin-right: 8px;
+    font-size: 20px;
+}
+/* hover effect */
+.logo-table td:hover {
+ background-color: #f3e5d7;
+}
+.Expertise{
+    font-size: 21px;
+    padding: 180px 100px 0px ;
+    background-color: white;
+    color: black;
+}
+.allService-btn{
+    border: 2px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+  
+}
+.allService-btn a{
+ text-decoration: none;
+ color: black;
+}
+
+.allService-btn:hover{
+    background-color: black;
+    
+}
+.allService-btn:hover a{
+    color: white;
+}
+.Expertise3{
+    padding: 20px;
+    font-size: 21px;
+    padding-bottom: 200px;
+}
+.Expertise3 h2{
+ font-family:'Times New Roman', Times, serif ;
+ font-weight: bolder;
+ line-height: 60px;
+}
+
+.Expertise3 span{
+    font-family:normal;
+    font-weight: normal;
+    color: orange;
+}
+.GetStart{
+    color: beige;
+    margin: 150px 00px 150px;
+    text-align: center;
+}
+.letsWorkTogether{
+
+    background-color: orange;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.letsWorkTogether a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 35px;
+}
+
+footer{
+   
+    background-color: black;
+    padding: 40px 80px;
+}
+.f1{
+    width: 100%;
+    background-color: black;
+}
+.siteLink{
+    margin-left: 200px;
+}
+.siteLink a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+}
+.scroll-uobtn{
+ font-size: 50px;
+    color: white;
+    margin-top: -200px;
+    margin-left: 550px;
+}

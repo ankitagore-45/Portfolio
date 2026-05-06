@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- for logo that used for technilogy -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Bootstrap --><!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+   <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/react@18/umd/react.development.js" defer></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" defer></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="../../src/portfolioStyle.css">
+    <script src="../../src/portfolioScript.js"></script>
+    <script type="text/babel" defer>
+       function HeaderList(){
+    return(
+        <header id="top">
+            <nav className="d-flex justify-content-between align-items-center px-5">
+
+                <a href="index.html" className="fw-bold fs-5 ">
+                    Ankita
+                </a>
+
+                <div>
+                    <a href="profolioAbout.html" className="me-3">About</a>
+                    <a href="profolioService.html" className="me-3">Service</a>
+                    <a href="contactPortpholio.html" className="me-3">Contact</a>
+
+                    <button className="btn btn-warning fw-bold p-3">
+                       <a href="contactPortpholio.html" > Let's Work Together </a>
+                    </button>
+                </div>
+
+            </nav>
+        </header>
+    )
+}
+
+const navbar = ReactDOM.createRoot(document.getElementById("navbar"));
+navbar.render(<HeaderList/>);
+
+     const f1 = ReactDOM.createRoot(document.getElementById("f1"));
+      f1.render(
+        <footer>
+         <FooterSection/>
+        </footer>
+      );
+
+    </script>
+</head>
+
+<body class="mt-5"> 
+    <div id="navbar"></div>
+    <section>
+        <hr class="hr1">
+        <span class="hello">Hello,I'm Ankita</span>
+        <div class="row">   
+            <div class="titlePara col-8 fw-bold">
+                Build. Learn. Deliver. <br>
+                I turn ideas into simple, working web solutions.
+            </div>
+            <div class="myimg col-4">
+
+            </div>
+        </div>
+        <button class="scroll-btn btn " > <span class="bi bi-arrow-down-circle"></span> &nbsp;<a href="#down">Scroll For More</a></button>
+    </section>
+
+    <section id="down">
+        <div class="row" style="margin-top: 200px;">
+            <div class="col-6 image-box ">
+
+                <div class=" aboutContent text-warning" style=" font-size: 30px; margin-left: 100px;">About</div>
+                <div class="aboutContent2">Dream.<br> Believe.<br> Achieve.</div>
+
+
+                <button class="more-btn btn"><a href="profolioAbout.html">More About Me</a></button>
+                <div class="socilMedia">
+                    <a class="bi bi-linkedin" style="text-decoration: none; color: gray;"
+                        href="https://www.linkedin.com/in/ankita-gore-4587ag/"></a>
+                    <a class="bi bi-github" style="text-decoration: none; color: gray;"
+                        href="https://github.com/ankitagore-45/"></a>
+                </div>
+            </div>
+            <div class=" about-para col-6">
+                <p>I am Ankita Gore, a Full Stack Java Developer with a strong foundation in backend
+                    development and a growing interest in building complete, real-world web applications.
+                    I enjoy working with Java, SQL, and modern web technologies to turn ideas into
+                    functional and scalable solutions.</p>
+                <p>I have hands-on experience through internships and academic projects, where I worked
+                    on frontend development, backend logic, and database handling. I focus on writing
+                    clean, maintainable code and continuously improving my technical skills.</p>
+                <!-- <p>Currently, I am enhancing my knowledge in Spring Boot and full stack development,
+and I am actively seeking an entry-level opportunity where I can contribute,
+learn, and grow as a software developer.</p> -->
+            </div>
+
+
+        </div>
+    </section>
+    <section class="all-technology">
+        <div style="text-align: center; font-size: 30px; font-weight: bold; margin-bottom: 15px;">Technical Skills</div>
+      <div class="technology">
+        <table border="1" class="logo-table" style="border-collapse: collapse; width:80%; margin:auto; text-align:center;">
+    <tr>
+        <td><i class="devicon-java-plain colored"></i> Java</td>
+        <td><i class="devicon-java-plain colored"></i> Adv Java</td>
+        <td> <i class="devicon-spring-plain colored"></i> Spring Boot</td>
+        <td><i class="devicon-oracle-original colored"></i> Oracle</td>
+    </tr>
+
+    <tr>
+        <td><i class="devicon-mysql-plain colored"></i> SQL / PL-SQL</td>
+        <td><i class="devicon-react-original colored"></i> React</td>
+        <td><i class="devicon-html5-plain colored"></i> HTML</td>
+       <td><i class="devicon-css3-plain colored"></i> CSS</td>
+    </tr>
+
+    <tr>
+           <td><i class="devicon-bootstrap-plain colored"></i> Bootstrap</td>
+    <td><i class="devicon-javascript-plain colored"></i> JavaScript</td>
+        <td><i class="devicon-amazonwebservices-original colored"></i> AWS</td>
+        <td><i class="devicon-docker-plain colored"></i> DevOps</td>
+
+       
+    </tr>
+</table>
+</div>
+</section>
+
+    <section class="Expertise">
+        <div class="row">
+            <div class="col-6">
+                <p style="font-size: 30px; color: orange;">Expertise</p>
+                <p
+                    style="font-size: 80px; font-weight: bold; font-family:'Times New Roman', Times, serif ; line-height: 90px;">
+                    My key areas of expertise.</p>
+                <p style="font-size: 20px;">
+                    I focus on building complete web applications by combining strong backend logic,
+                    clean frontend design, and efficient database management.
+                </p>
+                <button class="allService-btn btn"><a href="profolioService.html" >View All Services</a></button>
+            </div>
+
+            <div class="col-6">
+                <div class="Expertise3">
+                    <div>
+                        <h2><span>01.&nbsp;</span>Backend Development (Java)</h2>
+                        <p>I develop backend logic using Core Java and JDBC to handle business operations, data
+                            processing,
+                            and database connectivity in a clean and structured way.</p>
+                    </div>
+                    <div>
+                        <h2><span>02.&nbsp;</span>Frontend Development</h2>
+                        <p>I develop backend logic using Core Java and JDBC to handle business operations, data
+                            processing,
+                            and database connectivity in a clean and structured way.</p>
+                    </div>
+                    <div>
+                        <h2><span>03.&nbsp;</span>Database Design & SQL</h2>
+                        <p>I develop backend logic using Core Java and JDBC to handle business operations, data
+                            processing,
+                            and database connectivity in a clean and structured way.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="GetStart">
+        <div>
+            <h1 style="font-size: 70px; font-family:'Times New Roman', Times, serif ; font-weight: bold;  ">
+                Get started with <br>a conversation today. </h1>
+            <p style="font-size: 22px; padding-left: 150px; padding-right: 150px; margin-top: 50px;">
+                Open to opportunities where I can contribute to meaningful projects,
+                strengthen my full stack Java skills, and grow within a collaborative development team.
+            </p>
+            <button class="letsWorkTogether btn " ><a href="contactPortpholio.html" style="text-decoration: none;"> Lets Work Together</a>  </button>
+        </div>
+    </section>
+    <div class="f1">
+        <footer class="footer">
+            <div class="row ">
+                <div class="col-6">
+                    <p style="font-size: 30px; font-weight: bold; font-family:serif ; color: beige;">About Ankita</p>
+                    <p class="text-secondary" style="font-size: 20px; ">
+                        Ankita Gore is a Full Stack Java Developer passionate about building
+                        simple, reliable, and user-friendly web applications using modern
+                        technologies.
+                    </p>
+                    <div class="socilMedia text-secondary">
+                        <a class="bi bi-linkedin" style="text-decoration: none; color: gray;"
+                            href="https://www.linkedin.com/in/ankita-gore-4587ag/"></a>
+                        <a class="bi bi-github" style="text-decoration: none; color: gray;"
+                            href="https://github.com/ankitagore-45/"></a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="siteLink">
+                        <p style="font-size: 30px;font-weight: bold; font-family:serif ; color: beige;">Site Link</p>
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Service</a>
+                        <a href="">Contact</a>
+                    </div>
+                    <div class="text-secondary" style="margin-left: 280px; margin-top: 100px;">
+                        © 2026 Ankita. All rights reserved.<br>
+                        Ankita | Full Stack Java Developer
+                    </div>
+                   <a href="#top"> <button class="scroll-uobtn btn" > <span class="bi bi-arrow-up-circle"></span></button> </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Your JavaScript -->
+    <script src="../src/portfolioScript.js"></script>
+
+</body>
+
+</html>
