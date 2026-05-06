@@ -71,7 +71,7 @@ nav button{
     inset: 0;
     height: 350px;
     width: 300px;
-    background-image: url("../public/image/geometric_shape.svg");
+    background-image: url("image/geometric_shape.svg");
     background-size: cover;
     background-position: center;
     opacity: 20%;          /* ONLY image */
